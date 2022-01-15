@@ -2,8 +2,7 @@ import Image from 'next/image';
 import DevaLogo from './public/deva-logo.png'
 export default {
 	github: 'https://github.com/rida-el/DevaUI',
-	docsRepositoryBase:
-		'https://github.com/rida-el/DevaUI/blob/master/pages',
+	
 	branch: 'master',
 	path: '/',
 	titleSuffix: ' – Deva UI',
@@ -14,17 +13,14 @@ export default {
 	darkMode: true,
 	footer: true,
 	footerText: 'MIT 2021 © Deva',
-	footerEditOnGitHubLink: true, // will link to the docs repo
+	footerEditOnGitHubLink: false, // will link to the docs repo
 	logo: (
 		<>
-			<Image src={DevaLogo} width={150} height={50} />
+			<h1>Deva Ui</h1>
 		</>
 	),
 	head: (
 		<>
-			
-
-
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<meta
 				name="description"
